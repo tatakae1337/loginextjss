@@ -1,0 +1,39 @@
+.logo-sakha {
+    position: absolute;
+    left: 0px;
+    top: -89px;
+    width: 346px;
+    height: 89px;
+    display: block;
+    background: 0px 0px no-repeat url('../images/sakha/logo.png');
+}
+.logo-none {
+    position: absolute;
+    left: 0px;
+    top: -89px;
+    width: 346px;
+    height: 89px;
+    display: block;
+    /*background: 0px 0px no-repeat url('../images/sakha/logo.png');*/
+}
+.background-image-sakha {
+    right: 58px;
+    bottom: 32px;
+    background: 0px -89px no-repeat url('../images/sakha/logo.png');
+    width: 183px;
+    height: 35px;
+}
+.background-image-sakha-right {
+    right: 11px;
+    bottom: 32px;
+    background: 0px -89px no-repeat url('../images/sakha/logo.png');
+    width: 183px;
+    height: 35px;
+}
+.background-image-right-bottom-sakha {
+    right: 206px;
+    bottom: 32px;
+    background-position: -274px -370px;
+    width: 31px;
+    height: 37px;
+}

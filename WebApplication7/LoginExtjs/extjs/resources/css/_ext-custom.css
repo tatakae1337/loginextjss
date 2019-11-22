@@ -1,0 +1,7 @@
+.x-column-header-inner, .x-column-header-inner span { white-space:normal !important; text-align: center;}
+.x-tool-info{
+background-position:0pt 0px;
+width:100px;
+background-image:url(/cap/ext/resources/images/default/panel/tool-wide-sprites.gif);
+}
+

@@ -1,0 +1,962 @@
+﻿.x-column-header-inner, .x-column-header-inner span { white-space:normal !important; text-align: center;}
+.x-tool-info{
+	background-position:0pt 0px;
+	width:100px;
+	background-image:url('/cap/ext/resources/images/default/panel/tool-wide-sprites.gif');
+}
+
+.multilenerow .x-grid-row .x-grid-cell-inner {
+    white-space:normal !important;
+}
+.multilenerow .x-grid-row-over .x-grid-cell-inner {
+    white-space:normal !important;
+}
+
+.main_buttons {
+	width: 120px !important;
+	background-color: inherit !important;
+	background-image: none !important;
+}
+
+.main_buttons_icons {
+	height: 73px !important;
+	align: center;
+}
+
+.html_body_1 {
+    width: 100%;
+    height: 100%;
+}
+
+.html_body_2 {
+    color: #000000;
+    background: #f8f9f8 url('../images/background.gif') repeat;
+    font-family: Tahoma;
+    color: #797979;
+    font-size: 12px;
+    min-width: 731px;
+	border: none !important;
+}
+
+.toolbar_bottom_left { 
+	display: block;
+	float: left;
+	/*//padding: 4px 0px 0px 11px;*/
+	position: relative;
+	font-size: 12 !important;
+	color: #797979 !important;
+}
+
+.toolbar_bottom_right { 
+	display: block;
+	float: right;
+	/*//padding: 4px 11px 0px 0px;*/
+	position: relative;
+	font-size: 12 !important;
+	color: #797979 !important;
+}
+
+.main_bottom_body {
+	bottom:0px;
+	height: 100%;
+	border-top: 1px solid #bcbcbc !important;
+	background:#d3d3d3 url('../images/pattern.png') repeat;
+	display: block;
+	padding: 0px 0px 2px 2px;
+}
+
+.main_bgicon_right {
+	bottom: 9px !important;
+	position: absolute !important;
+	color: #797979;
+}
+
+.main_header {
+	background: #80D4D9;
+	height: 80px !important;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	border: none !important;
+}
+
+.x-grid-cell-checkcolumn .x-grid-cell-inner {
+    padding-top: 4px;
+    padding-bottom: 2px;
+    line-height: 14px;
+}
+.x-grid-with-row-lines .x-grid-cell-checkcolumn .x-grid-cell-inner {
+    padding-top: 3px;
+}
+.x-grid-checkheader {
+    height: 14px;
+    background-image: url('../images/unchecked.gif');
+    background-position: 50% -2px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.x-grid-checkheader-checked {
+    background-image: url('../images/checked.gif');
+}
+
+.x-grid-checkheader-editor .x-form-cb-wrap {
+    text-align: center;
+}
+
+.x-grid-row-error .x-grid-cell {
+    background-color: #ffaaaa;
+}
+
+.x-grid-row-snat .x-grid-cell {
+    color: #ff3331;
+}
+
+.x-grid-row-noactive .x-grid-cell{
+    background-color:antiquewhite;
+}
+
+.x-grid-row-summary .x-grid-cell{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.x-grid-row-unlimit .x-grid-cell{
+    background-color:#ff8c69;
+}
+
+.icons .icon-image2 {
+    display:block;
+    clear:both;
+    position:relative;
+    margin: 0px auto 7px auto;
+    background: url('../images/icons2.png');
+    height: 73px;
+}
+
+.icons .icon-image2-1 {
+    width: 73px;
+    background-position: 0px 0px;
+}
+.icons .icon-image3 {
+    display:block;
+    clear:both;
+    position:relative;
+    margin: 0px auto 7px auto;
+    background: url('../images/icons3.png');
+    height: 73px;
+}
+
+.icons .icon-image3-1 {
+    width: 73px;
+    background-position: 0px 0px;
+}
+.icons .icon-image4 {
+    display:block;
+    clear:both;
+    position:relative;
+    margin: 0px auto 7px auto;
+    background: url('../images/icons4.png');
+    height: 73px;
+}
+
+.icons .icon-image4-1 {
+    width: 73px;
+    background-position: 0px 0px;
+}
+.icons .icon-image5 {
+    display:block;
+    clear:both;
+    position:relative;
+    margin: 0px auto 7px auto;
+    background: url('../images/icons5.png');
+    height: 73px;
+}
+
+.icons .icon-image5-1 {
+    width: 73px;
+    background-position: 0px 0px;
+}
+
+.icon-expl {
+   height: 73px !important;
+   width: 73px !important;
+   background-image: url('../images/explorer_73.png') !important;
+}
+
+/*Подчеркивание имени пользователя пунктирной линий*/
+.userloginname
+{
+    border-bottom: 1px dotted black; /* Параметры линии */
+    line-height: 1em;
+    display: inline-block;
+}
+
+.userrole
+{
+    border-bottom: none; /* Параметры линии */
+    line-height: 1em;
+    display: inline-block;
+}
+
+.username
+{
+    border-bottom: none; /* Параметры линии */
+    line-height: 1em;
+    display: inline-block;
+}
+
+/*Выпадающее меню в AccountProfile для пункта "Сменить пароль"*/
+
+.changepassword_shown {
+    display:inline-block;
+}
+
+.changepassword_hidden {
+    display:none;
+    top: 20px;
+    left: -20px;
+    height: 2em;
+    z-index: 10;
+    padding-left: 5px;
+    /*padding-top: 5px;*/
+    padding-right: 5px;
+    background-color: #7fd4d9;
+    border: 2px solid ;
+}
+
+.changepassword_shown:hover .changepassword_hidden {
+    display:inline-block;
+    position:absolute;
+    top: 15px;
+    /*left: 20px;*/
+    height: 2em;
+}
+
+.user-role-name {
+    float: right;
+    top: 2px;
+    position: relative;
+    height: 1.5em;
+}
+
+.rajon-combo{
+    /*float: right;*/
+    position: relative;
+    /*width: 400px;*/
+    /*top: 5px;*/
+    /*left: 10em;*/
+    /*width: 22em;*/
+    /*right: -70px;*/
+    /*margin-top: 0.2em;*/
+    /*margin-right: 0.1em;*/
+    /*height: 1.5em;*/
+}
+
+.rajon-text{
+    /*float: right;*/
+    /*position: relative;*/
+    /*top: 5px;*/
+    left: 13em;
+    margin-right: 1em;
+    /*margin-left: 2em;*/
+    margin-top: 0.2em;
+    height: 1.5em;
+    color: #424242;
+    font-size: 12px;
+    font-family: tahoma,arial,verdana,sans-serif;
+}
+
+.rajon-block{
+    float: right;
+    width: auto;
+    position: relative;
+    /*left: 70;*/
+    /*top: -15px;*/
+    right: -6px;
+}
+
+.info-sub-block{
+    width: 1524;
+    float: right;
+    height: 23px;
+}
+
+.container_cur_month {
+	display: block;
+	float: left;
+	position: relative;
+	font-size: 11 !important;
+	/*color: #797979 !important;*/
+}
+
+.fix_combo .x-panel .x-field {
+    top: 10px !important;
+}
+
+.long-logo {
+    /*float: right;*/
+    right: 245px;
+    bottom: 32px;
+    background: 0px 0px no-repeat url('../images/sakha/logo_long.png');
+    background-size: 91px 35px;
+    width: 95px;
+    height: 35px;
+}
+/*x-grid-cell-inner*/
+.table-edit-cursor  {
+    background: 1px 4px no-repeat url('../images/edit1.gif');
+}
+
+.stage_row_border .x-grid-cell{
+    border-right: 1px solid #abc7ec !important;
+    border-bottom : 1px solid #abc7ec !important;
+    padding-left: 2px;
+}
+
+.combo-template{
+    /*text-align: center;*/
+    width: 100%;
+}
+
+.combo-template td{
+    height: 8px;
+    font-size: 0.75em;
+    /*text-align: center;*/
+    width: 100%;
+}
+
+.cell-align-center {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ced9e7;
+}
+
+.icons .icon-image-custom {
+    display:block;
+    clear:both;
+    position:relative;
+    left: 15px;
+    margin: 0px auto 7px auto;
+    background: url('../images/explorer_73.png');
+    height: 73px;
+}
+
+.icons .icon-image-custom-exchange {
+    display:block;
+    clear:both;
+    position:relative;
+    left: 15px;
+    margin: 0px auto 7px auto;
+    background: url('../images/exchange1.png');
+    height: 73px;
+}
+
+.icons .icon-image-custom-task-process {
+    display:block;
+    clear:both;
+    position:relative;
+    left: 15px;
+    margin: 0px auto 7px auto;
+    background: url('../images/task_process.png');
+    height: 73px;
+}
+
+.icons .icon-image-custom-snils {
+    display:block;
+    clear:both;
+    position:relative;
+    left: 15px;
+    margin: 0px auto 7px auto;
+    background: url('../images/snils.png');
+    height: 73px;
+}
+
+.icons .icon-image-custom-burse {
+    display:block;
+    clear:both;
+    position:relative;
+    left: 15px;
+    margin: 0px auto 7px auto;
+    background: url('../images/burse.png');
+    height: 73px;
+}
+
+.icons .icon-image-custom-document {
+      display:block;
+      clear:both;
+      position:relative;
+      left: 15px;
+      margin: 0px auto 7px auto;
+      background: url('../images/document.png');
+      height: 73px;
+  }
+
+.icons .icon-image-custom-law {
+    display:block;
+    clear:both;
+    position:relative;
+    left: 15px;
+    margin: 0px auto 7px auto;
+    background: url('../images/law.png');
+    height: 73px;
+}
+
+.icons .icon-image-custom-pgmu {
+    display:block;
+    clear:both;
+    position:relative;
+    left: 15px;
+    margin: 0px auto 7px auto;
+    background: url('../images/pgmu.png');
+    height: 73px;
+}
+
+.icons .icon-image-custom-document-archive {
+    display:block;
+    clear:both;
+    position:relative;
+    left: 15px;
+    margin: 0px auto 7px auto;
+    background: url('../images/document_archive.png');
+    height: 73px;
+}
+
+.icons .icon-image-custom-docushare_admin {
+    display:block;
+    clear:both;
+    position:relative;
+    left: 15px;
+    margin: 0px auto 7px auto;
+    background: url('../images/docushare_admin.png');
+    height: 73px;
+}
+
+.icons .icon-image-custom-technicalsupport {
+    display:block;
+    clear:both;
+    position:relative;
+    left: 15px;
+    margin: 0px auto 7px auto;
+    background: url('../images/technicalSupport_sakha.png');
+    height: 73px;
+}
+
+.icons .icon-image-custom-normatives {
+    display:block;
+    clear:both;
+    position:relative;
+    left: 15px;
+    margin: 0px auto 7px auto;
+    background: url('../images/norm_stand.png');
+    height: 73px;
+}
+
+.icons .icon-image-custom-act {
+    display:block;
+    clear:both;
+    position:relative;
+    left: 15px;
+    margin: 0px auto 7px auto;
+    background: url('../images/file_transfer_green_73.png');
+    height: 73px;
+}
+
+.icons .icon-image-custom-calculator {
+    display:block;
+    clear:both;
+    position:relative;
+    left: 20px;
+    margin: 0px auto 7px auto;
+    background: url('../images/calculator_73.png');
+    height: 73px;
+}
+
+.icons .icon-image-custom-fias {
+    display: block;
+    clear: both;
+    position: relative;
+    left: 24px;
+    margin: 0px auto 7px auto;
+    background: url('../images/fias.png');
+    height: 73px;
+}
+
+.icons .background-position-x {
+    background-position-x: 20;
+}
+
+.icons .background-position-x1 {
+    background-position-x: 7;
+}
+
+.uk-charge-table-header-font {
+    font-size: 0.8em;
+}
+
+.hide-bar div.x-horizontal-box-overflow-body {
+    display: none !important;
+}
+
+/*.hide-bar div.x-tab-bar-strip {*/
+    /*display: none !important;*/
+/*}*/
+
+/*.hide-bar div.x-tab-bar-body {*/
+ /*display: none !important;*/
+/*}*/
+
+.readonlytext input {
+    color: gray;
+}
+
+.monospaced-text-area .x-form-field{
+    font: normal 12px courier new, tahoma,verdana,sans-serif !important;
+}
+
+.current-row .x-grid-cell-inner {
+    color: #000000;
+    background-color: #4dc7d4 !important
+}
+
+.x-form-select-trigger {
+    background-image: url('../../resources/images/trigger-select.png');
+}
+
+iframe {
+    border: 0px;
+}
+
+.mask-block{
+    display: none;
+}
+
+.task_session_progress .x-progress-text{
+	overflow:hidden;
+	position:absolute;
+	padding:0 5px;
+	height:18px;
+	font-weight:bold;
+	font-size:11px;
+	line-height:9px;
+	text-align:center;
+}
+
+.task_session_progress .x-progress-text-back{
+	padding-top:0px;
+	line-height: 11px;
+}
+
+.task_session_progress .x-progress{
+	position:relative;
+	border-width:1px;
+	border-style:solid;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	-ms-border-radius:0;
+	-o-border-radius:0;
+	border-radius:0;
+	overflow:hidden;
+	height:13px
+}
+
+.red_label{
+	color: red;
+}
+
+.bold_label{
+	font-weight:bold;
+}
+
+.fix-window-shift{
+    top: 0px !important;
+}
+
+.editable_row .x-grid-cell-inner {
+    color: #0002ff !important
+}
+
+.menu-item-without-iconspace .x-menu-item-link {
+	padding: 6px 2px 3px 8px;
+}
+
+.x-grid-row-master-save-selected .x-grid-row-selected .x-grid-cell{
+    background-color: rgba(19, 0, 255, 0.20) !important;
+}
+
+.x-grid-row-master .x-grid-cell .x-grid-cell-inner{
+    background-color: rgba(97, 184, 255, 0.50);
+}
+
+.x-grid-row-slave .x-grid-cell .x-grid-cell-inner{
+    background-color: rgba(255, 193, 188, 0.50);
+}
+
+.fix-back-link{
+    float: left;
+}
+
+.fix-back-link a{
+    z-index: 101;
+}
+
+.x-grid-table .transllink-row-highlight-selected .x-grid-cell {
+    background-color: limegreen !important;
+    color: white !important;
+}
+.x-grid-table .transllink-row-highlight .x-grid-cell {
+    background-color: palegreen !important;
+}
+
+ .x-grid-table .transllink-row-highlight-down-selected .x-grid-cell {
+    background-color: red !important;
+    color: white !important;
+}
+.x-grid-table .transllink-row-highlight-down .x-grid-cell {
+    background-color: lightpink !important;
+}
+
+.x-grid-table .infmxnzp-row-highlight-selected .x-grid-cell {
+    background-color: navy !important;
+    color: white !important;
+}
+.x-grid-table .infmxnzp-row-highlight .x-grid-cell {
+    background-color: skyblue !important;
+}
+.x-grid-table .infmxnzp-row-highlight-main .x-grid-cell {
+    background-color: slateblue !important;
+    color: white !important;
+}
+
+
+.x-grid-table .desclist-row-ostensibly-delete-selected .x-grid-cell {
+    background-color: gray !important;
+    color: white !important;
+}
+.x-grid-table .desclist-row-ostensibly-delete .x-grid-cell {
+    background-color: silver !important;
+    color: white !important;
+}
+
+.supress-mask .x-mask{
+    display: none;
+}
+
+.fix-button-index button{
+    z-index: 1;
+}
+
+/*СТИЛИ ОКНА ГИС СРН*/
+
+.master-profile .x-toolbar-default{
+    border-color: #7fd4d9 !important;
+    background-color: #7fd4d9 !important;
+}
+
+.master-panel-body .x-panel-header-default {
+    font-size: 11px;
+    border-color: #99E8D8;
+    border-width: 1px;
+    border-style: solid;
+    background-image: none;
+    background-color: #CBF3EB;
+    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#dae7f6),color-stop(45%,#CDF3ED),color-stop(46%,#ABECE4),color-stop(50%,#ABECE4),color-stop(51%,#B8EEE5),color-stop(100%,#cbddf3));
+    background-image: -webkit-linear-gradient(top,#DAF6F3,#CDF3F0 45%,#ABECE7 46%,#ABECE7 50%,#B8ECEE 51%,#CBF3F1);
+    background-image: -moz-linear-gradient(top,#DAF6F3,#CDF3F0 45%,#ABECE7 46%,#ABECE7 50%,#B8ECEE 51%,#CBF3F1);
+    background-image: -o-linear-gradient(top,#DAF6F3,#CDF3F0 45%,#ABECE7 46%,#ABECE7 50%,#B8ECEE 51%,#CBF3F1);
+    background-image: -ms-linear-gradient(top,#DAF6F3,#CDF3F0 45%,#ABECE7 46%,#ABECE7 50%,#B8ECEE 51%,#CBF3F1);
+    background-image: linear-gradient(top,#DAF6F3,#CDF3F0 45%,#ABECE7 46%,#ABECE7 50%,#B8ECEE 51%,#CBF3F1);
+    -webkit-box-shadow: #f4f8fd 0 1px 0 0 inset;
+    -moz-box-shadow: #f4f8fd 0 1px 0 0 inset;
+    box-shadow: #f4f8fd 0 1px 0 0 inset;
+}
+
+.master-panel-body .x-panel-body-default {
+    background: white;
+    border-color: #49d2d9;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+/*                
+ * Для администратора ролей
+ * four-rows-text-tab - класс табпанели с высотой табки на 4 строки текста
+ * two-rows-text-tab - соответственно на две строки
+ */
+ 
+/*---------------------4------------------------------*/
+.four-rows-text-tab .x-tab-bar-strip {
+    top: 60px !important; /* Default value is 20, we add 20 = 40 */
+}
+
+.four-rows-text-tab>.x-tab-bar .x-tab-bar-body {
+    height: 63px !important; /* Default value is 23, we add 20 = 43 */
+    /* border: 0 !important; Overides the border that appears on resizing the grid */
+}
+
+.four-rows-text-tab>.x-tab-bar .x-tab-bar-body .x-box-inner {
+    height: 61px !important; /* Default value is 21, we add 20 = 41 */
+
+}
+
+.four-rows-text-tab>.x-tab-bar .x-tab-bar-body .x-box-inner .x-tab {
+    height: 61px !important; /* Default value is 21, we add 20 = 41 */
+}
+
+.four-rows-text-tab>.x-tab-bar .x-tab-bar-body .x-box-inner .x-tab button {
+    height: 53px !important; /* Default value 13, we add 20 = 33 */
+    line-height: 53px !important; /* Default value 13, we add 20 = 33 */
+}
+
+/*---------------------2------------------------------*/
+.two-rows-text-tab .x-tab-bar-strip {
+    top: 35px !important; /* Default value is 20, we add 20 = 40 */
+}
+
+.two-rows-text-tab>.x-tab-bar .x-tab-bar-body {
+    height: 38px !important; /* Default value is 23, we add 20 = 43 */
+    /* border: 0 !important; Overides the border that appears on resizing the grid */
+}
+
+.two-rows-text-tab>.x-tab-bar .x-tab-bar-body .x-box-inner {
+    height: 36px !important; /* Default value is 21, we add 20 = 41 */
+}
+
+.two-rows-text-tab>.x-tab-bar .x-tab-bar-body .x-box-inner .x-tab {
+    height: 36px !important; /* Default value is 21, we add 20 = 41 */
+}
+
+.two-rows-text-tab>.x-tab-bar .x-tab-bar-body .x-box-inner .x-tab button {
+    height: 28px !important; /* Default value 13, we add 20 = 33 */
+    line-height: 28px !important; /* Default value 13, we add 20 = 33 */
+}
+
+
+.current-day {
+    border-color: red;
+	border-style: groove;
+	border-width: 2px;
+}
+
+.notworking-day {
+    background-color: #ffb7b7;
+}
+
+.working-day {
+    background-color: #E6E6FA;
+}
+
+.holiday-day {
+    background-color: #ffb7b7;
+}
+
+.preholiday-day {
+    background-color: #F0F8FF;
+}
+
+.row-editor-fix .x-form-display-field {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.red-row .x-grid-cell{
+	color: red;
+}
+
+.blue-row .x-grid-cell{
+	color: blue;
+}
+
+.green-row .x-grid-cell{
+	color: #00BB00;
+}
+
+/* не подкрашивать красным поля с ошибкой */
+.x-form-invalid-field {
+	background-color: inherit;
+	background-image: none; 
+}
+/* подкрашивать красным поля с ошибкой
+.x-form-invalid-field  .x-form-invalid-field-field {
+	border:solid 1px rgb(253, 166, 166);
+	background-color: #FCE5E5;
+	background-image: none; 
+}
+*/
+
+/*Форма финансирования МСЗ главные кнопки*/
+.msz-financing-form-action-button.x-btn { 
+	border: 1px solid transparent; 
+	width: 139px !important;
+}
+
+.msz-financing-form-action-button-pressed.x-btn { 
+	background-color: LightSteelBlue !important; 
+}
+.msz-financing-form-action-button-pressed.x-menu-item { 	
+	background-color: rgb(205, 221, 242) !important; 
+}
+
+.msz-financing-form-action-button-ready.x-btn {
+	border: 1px solid lightgreen; 
+}
+.msz-financing-form-action-button-ready.x-menu-item a {
+	border: 1px solid lightgreen; 
+}
+.msz-financing-form-action-button-ready.x-menu-item .x-menu-item-text {
+	color: green; 
+}
+
+.msz-financing-form-action-button-error.x-btn {
+	border: 1px solid red; 
+}
+.msz-financing-form-action-button-error.x-menu-item a {
+	border: 1px solid red; 
+}
+.msz-financing-form-action-button-error.x-menu-item .x-menu-item-text {
+	color: red; 
+}
+
+.nsi-fieldset-style {
+    border: 1px dotted #d1d1d1; !important;
+    border-radius: 4px 4px;
+    min-width: 100px !important;
+    max-width: 338px !important;
+}
+
+.nsi-fieldset-style-gis {
+    border: 1px dotted #d1d1d1; !important;
+    border-radius: 4px 4px;
+    min-width: 100px !important;
+    max-width: 210px !important;
+}
+
+.nsi-fieldset-style-aspn {
+    border: 1px dotted #d1d1d1; !important;
+    border-radius: 4px 4px;
+    min-width: 100px !important;
+    max-width: 227px !important;
+}
+
+.master_buttons {
+    background-color: inherit !important;
+    background-image: none !important;
+    border: none !important;
+}
+
+.nsi-style {
+    border: 1px dotted #d1d1d1; !important;
+    border-radius: 4px 4px;
+}
+
+.nsi-style1 {
+    min-width: 100px !important;
+    max-width: 260px !important;
+}
+
+.nsi-style2 {
+    min-width: 100px !important;
+    max-width: 385px !important;
+}
+
+/*Для электронной подписи*/
+.hiddenObject { 
+	visibility: hidden; 
+	width: 0px;
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+	border-width: 0px;
+	max-width: 0px;
+	max-height: 0px;
+}
+
+.label-text-align{
+    text-align: center;
+}
+
+.textfield-text-align input{
+    text-align: right !important;
+}
+
+.block-reject{
+     background-color: #ff8480;
+ }
+
+.block-accept{
+    background-color: #98ff8a;
+}
+
+.blink-red-border-enable button{
+    border: solid 2px red;
+    border-radius: 10px;
+}
+
+.blink-red-border-none button{
+    border: solid 2px;
+    border-color: rgba(255, 0, 0, 0.0);
+    border-radius: 10px;
+}
+
+.x-grid-table .td-left-border-bold, .x-grid-header-ct .td-left-border-bold {
+    border-left: 2px solid black !important;
+}
+
+.x-grid-table .td-right-border-bold, .x-grid-header-ct .td-right-border-bold {
+    border-right: 2px solid black !important;
+}
+
+/* Для readOnly полей серая подсветка */
+.x-form-readonly .x-form-field
+/* .x-trigger-noedit*/{
+	background: #EBEBEB;
+	cursor: auto;
+}
+
+.treegrid-border .x-grid-cell{
+    border-bottom: 1px solid #deecfd;
+}
+
+.summary-itog1-row .x-grid-cell{
+    font-size: 11px;
+	font-weight: bold;
+}
+
+.summary-itog2-row .x-grid-cell{
+	color: blue;
+    font-size: 11px;
+	font-weight: bold;
+}
+
+/* multiselect-combobox - теперь базовый класс для комбобоксов с множественным выбором */
+.multiselect-combobox-list-ct {
+	background-color: white; 
+	text-indent: 18px;
+}
+.multiselect-combobox-list-ct li{
+	background-image: url(/Scripts/Ext/resources/images/unchecked.gif); 
+	background-repeat: no-repeat;
+}
+.multiselect-combobox-selected { 
+	background: #cbdaf0;
+	border-color: #8eabe4;
+	background-image: url(/Scripts/Ext/resources/images/checked.gif) !important; 
+	background-repeat: no-repeat;
+}
+
+.x-grid-row .readonly-row-cell {
+    background-color: lightgray ;
+}
+
+#widgets .item img{
+     display: block;
+     width: 100%;
+     height: auto;
+ }
+
+.x-grid-row .without-value-row-cell {
+    background-color: lavenderblush  ;
+}

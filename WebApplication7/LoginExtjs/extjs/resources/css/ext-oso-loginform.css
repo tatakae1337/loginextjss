@@ -1,0 +1,94 @@
+.content-wrapper {
+    position: relative;
+    width: 321px;
+    height: 539px;
+    border: 0px solid #d1d1d1;
+    background: #e0e0e0 url('../images/background_auth.gif') repeat;
+    z-index: 1000;
+	border-radius: 0px;
+}
+
+.container-inner{
+    position:relative;
+    /*width:261px;*/
+	background: #e0e0e0 url('../images/background_auth.gif') repeat;
+    display:block;
+	border-radius: 0px;
+	border: 1px double #e0e0e0 !important;
+	z-index: 1000;
+}
+
+.container-login-button{
+    background: #e0e0e0 url('../images/background_auth.gif') repeat;
+    border-radius: 0px;
+	border: 0px double black !important;
+	min-width: 0;
+	z-index: 1000;
+}
+
+ .caption {
+    display:block;
+    margin: 13px 0px 5px 0px;
+}
+
+.login_caption{
+	float: left
+}
+
+.login_button{
+	float: left
+}
+
+.bottom {
+    position:relative;
+    height: 10px;
+    background: -274px -360px  url('../images/sprite.png') no-repeat;
+    margin: 0px 0px 0px 0px;
+    z-index: 0000;
+}
+
+.logo-sakha { 
+	background: url("../images/sakha/logo.png") 0px 0px no-repeat transparent;
+	display: block;
+	height: 89px;
+	left: 0px;
+	top: 0px;
+	width: 346px;
+}
+
+.hidden-window{
+	position: relative;
+    border: 0px solid #d1d1d1;
+    background: #ffffff;
+    z-index: 1000;
+	border-radius: 0px;
+	opacity: 1.0;
+	outline: 0px none #ffffff;
+	padding: 0px;
+	margin: 0px 0px 0px 45px; 
+}
+
+.main-backgound{
+	background: url('scripts/ext/resources/images/background.gif');
+}
+
+.html_body_2 {
+    color: #000000;
+    background: #f8f9f8 url('../images/background.gif') repeat;
+    font-family: Tahoma;
+    color: #797979;
+    font-size: 12px;
+    min-width: 0px;
+	border: none !important;
+}
+
+.background-image-mid {
+    position: absolute;
+    background-position: -274px -9px;
+    width: 260px;
+    height: 307px;
+    top: 0px;
+    right: 10px;
+    display:block;
+	z-index: 0;
+}
